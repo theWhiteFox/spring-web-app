@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>theWhiteFox Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />      
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/styley.css">
+</head>
+<body>	
+    <form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
+    <h1>theWhiteFox Form</h1>
+    	<p><span>Id: </span><input id="number" type="text" th:field="*{id}" /></p>
+        <p><span>Message: </span><input id="message" type="text" th:field="*{content}" /></p>
+        <input class="button-left" type="button" value="Submit" /> 
+        <input class="button-right" type="button" value="Reset" />
+    </form>
+</body>
+</html>

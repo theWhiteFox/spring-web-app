@@ -1,0 +1,81 @@
+body{
+	background-color: beige;
+	font-family: helvetica, Geneva, sans-serif;
+}
+form{
+	background-color: black;
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:350px;
+height:250px;
+max-width: 100%;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+}
+
+input {
+display:block;
+width: 97%; 
+margin: auto;
+max-width: 100%; 
+box-sizing: border-box;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input.button-left {
+width:100px;
+position:absolute;
+right:120px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+}
+input.button-left:hover {
+background:#fff;
+color:#09C;
+}
+
+input.button-right {
+width:100px;
+position:absolute;
+right:10px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+}
+input.button-right:hover {
+background:#fff;
+color:#09C;
+}
+h1{
+	text-align: center;
+}
+label{
+	background-color: red;
+}
+span{
+	margin: 1.5%;	
+}
